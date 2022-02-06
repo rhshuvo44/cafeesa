@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.menu a {
+  color: #fff;
+  z-index: 1;
+}
+.banner {
+  background-image: url(../images/slider-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -56px;
+  object-fit: cover;
+}
+/* .overrly {
+  background-color: black;
+  height: 100vh;
+  opacity: 0.3;
+  z-index: -1;
+} */
+/* .banner-info {
+  margin-top: 250px;
+  z-index: 1;
+} */
+.btn-slider {
+  background-color: rgb(150, 187, 124);
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 45px;
+  border-radius: 5px;
+  border: 1px solid rgb(150, 187, 124);
+  transition: all 0.2s ease 0s;
+}
+.btn-slider:hover {
+  background-color: transparent;
+}
+.datil-info {
+  margin-bottom: 20px;
+}
+.services-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.services-img-box {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(transparent 70%, rgb(24, 77, 71) 70%);
+  padding: 0px 25px 45px;
+}
+.services-img-box img {
+  height: 550px;
+}
+.about-img {
+  background: linear-gradient(to bottom, transparent 70%, #184d47 70%);
+  padding: 0 25px 45px 25px;
+}
+.table-book {
+  background-image: url(../images/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  /* background: linear-gradient(to right, rgba(24, 77, 71, 0.4), rgba(24, 77, 71, 0.85)) */
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  color: #fefefe;
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+  padding-left: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+::placeholder {
+  color: #fff;
+}
+footer {
+  background-color: #184d47;
+  padding: 20px 0;
+}
+.fotter-social i {
+  padding: 10px;
+  font-size: 20px;
+}
